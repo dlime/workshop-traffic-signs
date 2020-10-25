@@ -56,9 +56,13 @@ GPU Version
 - CUDA post installation [steps](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#post-installation-actions)
 - install [CUDA cuDNN](https://developer.nvidia.com/cudnn)
 - install [TensorRT](https://developer.nvidia.com/nvidia-tensorrt-download)
-
 ```
 pip install tensorflow-gpu
+```
+
+if any issues with Tensorflow and Cuda versions (Ubuntu 20.04):
+```
+conda install tensorflow-gpu cudatoolkit=10.1
 ```
 
 ### Keras
